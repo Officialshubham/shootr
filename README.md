@@ -29,16 +29,18 @@ Shootr is a nostalgic `.swf` Flash game brought back to life using [Ruffle](http
 
 ## 📁 Project Structure
 
+```
 shootr-game/
-├── client/ # React app
-│ ├── public/
-│ │ └── shoot.swf # Flash game file
-│ ├── src/
-│ │ └── App.jsx # Main UI with Ruffle embed
-│ └── index.html
+├── client/                # React app
+│   ├── public/
+│   │   └── shoot.swf      # Flash game file
+│   ├── src/
+│   │   └── App.jsx        # Main UI with Ruffle embed
+│   └── index.html
 ├── server/
-│ └── index.js # Express server
-└── package.json # Combined project dependencies
+│   └── index.js           # Express server
+└── package.json           # Combined project dependencies
+```
 
 ---
 
